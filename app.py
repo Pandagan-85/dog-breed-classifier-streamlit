@@ -252,8 +252,8 @@ except Exception as e:
     st.stop()
 
 # Interfaccia per il caricamento delle immagini
-uploaded_files = st.file_uploader("Carica una o più immagini di cani", type=[
-                                  "jpg", "jpeg", "png"], accept_multiple_files=True)
+uploaded_files = st.file_uploader("Carica una o più immagini di cani in jpg", type=[
+                                  "jpg"], accept_multiple_files=True)
 
 if uploaded_files:
     st.write(f"Hai caricato {len(uploaded_files)} immagini.")
