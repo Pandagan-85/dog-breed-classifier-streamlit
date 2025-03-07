@@ -1,12 +1,14 @@
+
+from PIL import Image
+import pandas as pd
+import altair as alt
+import numpy as np
 import streamlit as st
 import tensorflow as tf
-import numpy as np
-import matplotlib.pyplot as plt
-import altair as alt
-import pandas as pd
-from PIL import Image
-import io
-import os
+from tensorflow_hub import load  # this line caused the error before
+encode = load("https://tfhub.dev/google/universal-sentence-encoder/4")
+encode(["whatever"])
+
 
 # Configurazione pagina
 st.set_page_config(page_title="Dog Breed Classifier", layout="centered")

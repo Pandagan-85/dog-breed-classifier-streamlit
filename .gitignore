@@ -4,3 +4,5 @@ end_to_end_dog_vision.ipynb
 assets/example_image.jpg
 requirements_no.txt
 requirements_no_lungo.txt
+/doggy
+/.vscode
