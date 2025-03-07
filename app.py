@@ -5,9 +5,9 @@ import altair as alt
 import numpy as np
 import streamlit as st
 import tensorflow as tf
-from tensorflow_hub import load  # this line caused the error before
-encode = load("https://tfhub.dev/google/universal-sentence-encoder/4")
-encode(["whatever"])
+# from tensorflow_hub import load  # this line caused the error before
+# encode = load("https://tfhub.dev/google/universal-sentence-encoder/4")
+# encode(["whatever"])
 
 
 # Configurazione pagina
